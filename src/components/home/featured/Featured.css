@@ -1,0 +1,46 @@
+.featured .box {
+    box-shadow: 0 0 20px 0 rgba(185, 191, 201, 0.18);
+    border-radius: 6px;
+    text-align: center;
+    padding: 30px;
+    cursor: pointer;
+    background: #beeec9a6;
+    animation: slide 20s infinite;
+    animation-timing-function: linear;
+    overflow: hidden;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translateX(100%);
+    }
+    25% {
+      transform: translateX(0%);
+    }
+    75% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .featured img {
+    width: 65px;
+    height: 65px;
+    margin: auto;
+  }
+
+  .featured .heading h1 {
+    color: #054712;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 35px;
+  }
+
+  .featured .heading p {
+    color: #076b0f;
+  }
+
+
+  

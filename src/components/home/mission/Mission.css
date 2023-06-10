@@ -1,0 +1,43 @@
+.mission {
+    background-color: #0e3911;
+    color: #fff;
+    text-align: center;
+  }
+  /* .mission h1 {
+    display: contents;
+  } */
+  
+  .mission h1 {
+    color: #f9f9f9;
+    font-size: 17px;
+    font-weight:50;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  
+  .mission .icon {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    /* background: rgba(0, 1, 0, 0.371); */
+    border-radius: 10% 10%;
+    font-size: 32px;
+    margin: auto;
+    color: #ffae22;
+    justify-items: center;
+  }
+  
+  .mission p {
+    color: #40d77f;
+    font-size: 30px;
+  }
+  
+  .mission .container p {
+    color: #e5ac39;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .mission .container .square-bullet {
+    list-style-type: square;
+  }

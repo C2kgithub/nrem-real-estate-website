@@ -1,0 +1,77 @@
+.price .box {
+  position: relative;
+  border-radius: 5px;
+}
+
+.price img {
+  border-radius: 5px;
+}
+
+.price .btn {
+    border-radius: 10px;
+    padding: 20px 40px;
+    color: #a3d80f;
+    font-size: 20px;
+    font-weight: 400;
+    border: 5px solid #c7e2aa31;
+    background: #0115055d;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.price .btn:hover {
+  background-color: #91a00e9b;
+  transition: background-color 0.5s;
+}
+
+.price .btn:active {
+  background-color: #76ea785a;
+  transition: background-color 0.5s;
+}
+
+
+.price .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px;
+  width: 100%;
+  color: #76ea78;
+  z-index: 2222;
+}
+
+.price .overlay::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 340px;
+  height: 190px;
+  align-items: center;
+  justify-content: center;
+  background: rgba(2, 29, 8, 0.726);
+  z-index: -1;
+  margin: 20px;
+  border-radius: 10px;
+}
+.price h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.price label {
+  color: #ffffff;
+  margin-right: 20px;
+  opacity: 0.8;
+}
+@media screen and (max-width: 800px) {
+  .price .overlay::after {
+    width: 280px;
+    height: 170px;
+  }
+}
